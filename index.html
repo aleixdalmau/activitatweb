@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang "es">
+<link rel="stylesheet" href="style.css"></link>
+
+  <head>
+  <title>INS Castelló d'Empúries</title>
+  <link rel="icon" type="image/x-icon" href="imatges/logonou.gif">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="inici">
+        <nav>
+          <ul>
+            <div class="dropdown">
+              <a href="Index.html"><img src="https://cdn.icon-icons.com/icons2/2090/PNG/512/menu_lines_icon_128347.png" class="imatge"></a>
+              <div class="dropdown-content">
+                <a href="index.html">INICI</a>
+                <a href="noticies.html">NOTICIES</a>
+                <a href="eines.html">EINES</a>
+                <a href="horaris.html">CALENDARI</a>
+              </div>
+            </div>
+            <li>
+              <a class="entrar" href="profes.html">ENTRAR</a>
+            </li>
+          </ul>
+          <center>
+            <a href="index.html"><img src="imatges/logonou.gif" class="imatg"></a>
+          </center>
+          <img/>
+        </nav>
+      </section>
+      <section>
+        <div class="content">
+          <div class="left">
+            <label>
+              L’INS Castelló d’Empúries és un centre públic que neix l’any 1996 amb la implantació de la LOGSE. L’institut es manifesta laic, pluralista i respectuós amb la diversitat d’idees i creences.
+          </div>
+      </section>
+      <section>
+        <div id="inici" class="content">
+          <div class="image">
+            <img src="imatges/institut1.jpeg" width="100%">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content">
+          <div class="left">
+            <label>
+              L’INS Castelló utilitza el català com a llengua d’instrucció-aprenentatge i d’ús administratiu, per la qual cosa ha adequat mitjans i recursos per tal que el català sigui la llengua de comunicació en aquests àmbits.
+            </label>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content">
+          <div class="image">
+            <img src="imatges/institut2.jpg" width="100%">
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="content">
+          <div class="left">
+            <label>
+              Així mateix, la tolerància ha de ser un del valors que ha d’orientar les relacions interpersonals dins del Centre per la qual cosa cap membre de la comunitat educativa podrà ser discriminat per la seva llengua, pel seu sexe, per la seva religió…
+            </label>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div id class="content">
+          <div class="image">
+            <img src="imatges/institut3.png" width="100%">
+          </div>
+        </div>
+      </section>
+      <button onclick="topFunction()" id="myBtn">🡹</button>
+    </div>
+    <script>
+      // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+  </body>
+</html>

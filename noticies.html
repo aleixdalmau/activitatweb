@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang "es">
+<link rel="stylesheet" href="style.css"></link>
+
+  <head>
+  <title>INS Castelló d'Empúries</title>
+  <link rel="icon" type="image/x-icon" href="imatges/logonou.gif">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="inici">
+        <nav>
+          <ul>
+            <div class="dropdown">
+              <a href="Index.html"><img src="https://cdn.icon-icons.com/icons2/2090/PNG/512/menu_lines_icon_128347.png" class="imatge"></a>
+              <div class="dropdown-content">
+                <a href="index.html">INICI</a>
+                <a href="noticies.html">NOTICIES</a>
+                <a href="eines.html">EINES</a>
+                <a href="horaris.html">CALENDARI</a>
+              </div>
+            </div>
+            <li>
+              <a class="entrar" href="profes.html">ENTRAR</a>
+            </li>
+          </ul>
+          <center>
+            <a href="index.html"><img src="imatges/logonou.gif" class="imatg"></a>
+          </center>
+          <img/>
+        </nav>
+      </section>
+      <div class="notis">
+      <table class="esq">
+        <tr>
+          <td>
+              <br><br>
+              <a href="https://agora.xtec.cat/iescastellodempuries/activitats/batxillerat/viatge-a-londres-dels-alumnes-de-2n-batxillerat/"><h2>Viatge a Londres dels alumnes de 2n de Batxillerat</h2></a>
+              <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/WhatsApp-Image-2024-02-23-at-17.08.16-4-1.jpeg" width="500px"></td>
+        </tr>
+
+      </table>
+      <table class="drt">
+        <tr>
+          <td>
+              <br><br>
+              <a href="https://agora.xtec.cat/iescastellodempuries/activitats/batxillerat/luces-de-bohemia-en-salt/"><h2>Luces de Bohemia en Salt</h2></a>
+              <br><br>
+          </td>
+        </tr> 
+        <tr>
+          <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/foto-luces-de-bohemia-Copy.jpg" width="500px"></td>
+        </tr>
+      </table>
+      
+      <table class="esq">
+        <tr>
+          <td>
+              <br><br>
+              <a href="https://agora.xtec.cat/iescastellodempuries/activitats/eso/eso-1/visitem-el-museu-dhistoria-medieval-de-la-curia-preso/"><h2>Visita al Museu d’Història Medieval de la Cúria-Presó</h2></a>
+              <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/WhatsApp-Image-2024-02-22-at-16.42.25-1-COLLAGE-1024x1024.jpg" width="500px"></td>
+        </tr>
+      </table>
+        
+      <table class="drt">
+        <tr>
+          <td>
+            <br><br>
+            <a href="https://agora.xtec.cat/iescastellodempuries/activitats/eso/eso-4/els-alumnes-de-4r-eso-participen-a-lactivitat-exilis/"><h2>Els alumnes de 4r ESO participen a l’activitat EXILIS</h2></a>
+            <br><br>
+        </td>
+      </tr> 
+      <tr>
+        <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/20240216_145719-COLLAGE-1024x1024.jpg" width="500px"></td>
+      </tr>
+      </table>
+
+      <table class="esq">
+        <tr>
+          <td>
+              <br><br>
+              <a href="https://agora.xtec.cat/iescastellodempuries/activitats/eso/eso-4/els-alumnes-de-4r-eso-participen-a-lactivitat-exilis/"><h2>Carnaval a l’Institut de Castelló d’Empúries</h2>></a>
+              <br><br>
+          </td>
+        </tr>
+        <tr>
+          <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/WhatsApp-Image-2024-02-20-at-09.29.35-COLLAGE-1024x1024.jpg" width="500px"></td>
+        </tr>
+      </table>
+        
+      <table class="drt">
+      <tr> 
+        <td>
+          <br><br>
+          <a href="https://agora.xtec.cat/iescastellodempuries/activitats/eso/eso-4/els-alumnes-de-4r-eso-participen-a-lactivitat-exilis/"><h2>Dibuixant amb paral·leles</h2></a>
+          <br><br>
+        </td>
+      </tr>
+      <tr>
+        <td><img src="https://agora.xtec.cat/iescastellodempuries/wp-content/uploads/usu1409/2024/02/WhatsApp-Image-2024-02-13-at-11.46.50-2-COLLAGE-1024x1024.jpg" width="500px"></td>
+      </tr>
+      </table>
+      </div>
+        <button onclick="topFunction()" id="myBtn">🡹</button>
+      </div>
+      <script>
+        // Get the button:
+  let mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+      </script>
+  </body>
+</html>

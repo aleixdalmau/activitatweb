@@ -1,0 +1,245 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(236, 236, 236);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  position: sticky;
+  background: linear-gradient(to right, rgba(214, 214, 214, 0.9)5%, rgba(158, 158, 158, 0.719));
+  box-shadow: 0 5px 10px 5px rgba(117, 117, 117, 0.3);
+  height: 80px;
+  width: 100%; 
+}
+
+nav ul {
+  margin-right: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 150%;
+  margin-top: 25px;
+  float: right;
+}
+
+nav ul li .entrar {
+    color: black;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav ul div .imatge {
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+.entrar:hover {
+    background: #ffffffbe;
+    transition: 0.75s;
+}
+
+.dropdown {
+  position: relative;
+  float: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 150px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  font-weight: bold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  border-radius: 15px;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  border-radius: 15px;
+}
+
+.dropdown-content a:hover {
+  background-color: #111;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s;
+}
+
+.left{
+  width: 80%;
+  display: grid;
+  place-items: center;
+  padding: 5%;
+  text-align: justify;
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.image{
+  width: 50%;
+}
+
+section {
+  height: auto;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.noticia {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+.contingut {
+  margin-top: 20%;
+  font-size: 150%;
+  text-align: center;
+  color: white;
+  text-shadow: 0px 0px 7px #111;
+  text-decoration: none;
+}
+
+.esq{
+  align-content: center;
+  text-align: center;
+  float: left;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.drt{
+  align-content: center;
+  text-align: center;
+  float: right;
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .esq, .drt {
+    float: none;
+    width: auto; /* Reset width for responsiveness */
+    margin: 20px auto; /* Center the tables and add some margin between them */
+  }
+}
+
+.eines h1{
+  padding: 2% 5%;
+  font-size: 50px;
+}
+
+.eines h2{
+  padding: 2% 5%;
+  font-size: 30px;
+}
+
+.eines table{
+  text-align: center;
+}
+
+
+.boto ul li {
+  display: inline-block;
+  line-height: 150%;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+.boto ul li .entrar {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: rgb(163, 163, 163);
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgba(255, 255, 255, 0); /* Set a background color */
+  color: rgb(0, 0, 0); /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 22px; /* Increase font size */
+  width: 70px;
+}
+
+.cale {
+  margin-left: 30px;
+  font-size: 20px;
+}
+
+.cale h2{
+  padding: 2% 5%;
+  font-size: 30px;
+}
+
+.regis{
+  font-size: 60px;
+  margin-left: 10px;
+  color: black;
+  font-weight: bold;
+}
+
+form{
+  margin-top: 100px;
+  padding: 5px 5px;
+  font-size: 30px;
+}
+
+.imatg {
+  height: 70px;
+  margin-top: 5px;
+}
+
+.notis table tr td h2{
+  font-size: 30px;
+  color: black;
+  text-decoration-line: underline;
+}

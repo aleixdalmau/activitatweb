@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang "es">
+<link rel="stylesheet" href="style.css"></link>
+
+  <head>
+  <title>INS Castelló d'Empúries</title>
+  <link rel="icon" type="image/x-icon" href="imatges/logonou.gif">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="inici">
+        <nav>
+          <ul>
+            <div class="dropdown">
+              <a href="Index.html"><img src="https://cdn.icon-icons.com/icons2/2090/PNG/512/menu_lines_icon_128347.png" class="imatge"></a>
+              <div class="dropdown-content">
+                <a href="index.html">INICI</a>
+                <a href="noticies.html">NOTICIES</a>
+                <a href="eines.html">EINES</a>
+                <a href="horaris.html">CALENDARI</a>
+              </div>
+            </div>
+            <li>
+              <a class="entrar" href="profes.html">ENTRAR</a>
+            </li>
+          </ul>
+          <center>
+            <a href="index.html"><img src="imatges/logonou.gif" class="imatg"></a>
+          </center>
+          <img/>
+        </nav>
+        <center>
+          <table widht="100%" style="margin-top: 150px" border="0">
+              <tr>
+                  <td><a href="https://login.ieduca.com/" target="_blank"><img src="https://insmanueldepedrolo2.ieduca.com/wp-content/uploads/2017/09/ieduca.jpg" height="180px"></a></td>
+                  <td><a href="formulari.html"><label class="regis">Registrar-se</label></a></td>
+              </tr>
+          </table>
+      </center>
+        <button onclick="topFunction()" id="myBtn">🡹</button>
+      </div>
+      <script>
+        // Get the button:
+  let mybutton = document.getElementById("myBtn");
+  
+  // When the user scrolls down 20px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+      </script>
+  </body>
+</html>

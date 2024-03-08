@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang "es">
+<link rel="stylesheet" href="style.css"></link>
+
+  <head>
+  <title>INS Castelló d'Empúries</title>
+  <link rel="icon" type="image/x-icon" href="imatges/logonou.gif">
+  </head>
+
+  <body>
+    <div class="container">
+      <section id="inici">
+        <nav>
+          <ul>
+            <div class="dropdown">
+              <a href="Index.html"><img src="https://cdn.icon-icons.com/icons2/2090/PNG/512/menu_lines_icon_128347.png" class="imatge"></a>
+              <div class="dropdown-content">
+                <a href="index.html">INICI</a>
+                <a href="noticies.html">NOTICIES</a>
+                <a href="eines.html">EINES</a>
+                <a href="horaris.html">CALENDARI</a>
+              </div>
+            </div>
+            <li>
+              <a class="entrar" href="profes.html">ENTRAR</a>
+            </li>
+          </ul>
+          <center>
+            <a href="index.html"><img src="imatges/logonou.gif" class="imatg"></a>
+          </center>
+          <img/>
+        </nav>
+        <div class="cale">
+            <h2>CALENDARI: Dies destacats</h2>
+            <li><strong>6 de setembre:</strong> <span style="color: #555;">inici de curs</span></li>
+            <li><strong>11 de setembre:</strong> <span style="color: #555;">festiu</span></li>
+            <li><strong>12 d’octubre:</strong> <span style="color: #555;">festiu</span></li>
+            <li><strong>13 d’octubre:</strong> <span style="color: #555;">(lliure disposició)</span></li>
+            <li><strong>1 de novembre:</strong> <span style="color: #555;">festiu</span></li>
+            <li><strong>6 i 8 de desembre:</strong> <span style="color: #555;">festiu</span></li>
+            <li><strong>7 de desembre:</strong> <span style="color: #555;">(lliure disposició)</span></li>
+            <li><strong>del 21 de desembre al 7 de gener, ambdós inclosos:</strong> <span style="color: #555;">vacances de Nadal.</span></li>
+            <li><strong>2 de febrer:</strong> <span style="color: #555;">(Candelera: festa local)</span></li>
+            <li><strong>5 de febrer:</strong> <span style="color: #555;">(lliure disposició)</span></li>
+            <li><strong>del 23 de març a l’1 d’abril, ambdós inclosos:</strong> <span style="color: #555;">vacances de Setmana Santa.</span></li>
+            <li><strong>1 de maig:</strong> <span style="color: #555;">festiu</span></li>
+            <li><strong>2 i 3 de maig:</strong> <span style="color: #555;">(lliure disposició)</span></li>
+            <li><strong>21 de juny:</strong> <span style="color: #555;">finalització de les activitats lectives</span></li>   
+            <h2>HORARIS:</h2>   
+            <li><strong>ESO i BATX:</strong> <span style="color: #555;">Matins de 8:00 a 14:30</span></li>
+            <li><strong>Consergeria:</strong> <span style="color: #555;">Matins de 7:45 a 14:30</span></li>
+            <li><strong>Secreteria:</strong> <span style="color: #555;">Matins de 8:00 a 14:00.</span></li>   
+            <br>
+            <br>   
+        </div>
+        <button onclick="topFunction()" id="myBtn">🡹</button>
+    </div>
+    <script>
+      // Get the button:
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+    </script>
+  </body>
+</html>
